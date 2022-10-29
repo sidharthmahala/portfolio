@@ -1,0 +1,16 @@
+.hero--container{
+    height: 100vh;
+    background-color: #fff;
+    margin-top: -10px;
+    display: flex;
+}
+.hero--left{
+    width: 60%;
+    height: 100vh;
+    background-color: aquamarine;
+}
+.hero--right{
+    width: 40%;
+    height: 100vh;
+    background-color:aqua;
+}

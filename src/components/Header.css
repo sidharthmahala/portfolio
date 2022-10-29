@@ -1,0 +1,125 @@
+.header--container {
+  text-align: start;
+  height: 68px;
+  min-height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 16px 30px;
+  margin-bottom: 10px;
+  background-color: transparent;
+  backdrop-filter: blur(5px);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+}
+
+.logo--container {
+  display: flex;
+  align-items: center;
+}
+
+.logo--container h1 {
+  font-size: 20px;
+}
+
+.nav--container {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.nav--container a {
+  text-decoration: none;
+  color: black;
+  padding: 0 5px;
+  margin: 0 20px;
+  display: inline-block;
+  position: relative;
+  font-size: 15px;
+}
+
+.nav--container a:after {
+  content: "";
+  position: absolute;
+  width: 90%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.nav--container a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  
+  
+}
+
+.nav--container button {
+  backface-visibility: hidden;
+  font-size: 100%;
+  line-height: 1.15;
+
+  background-color: #405cf5;
+  height: 36px;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
+    rgba(50, 50, 93, 0.1) 0 2px 5px 0, rgba(0, 0, 0, 0.07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+
+  outline: none;
+  padding: 0 20px;
+  margin-left:20px ;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all 0.2s, box-shadow 0.08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.theme-toggle-btn:disabled {
+  cursor: default;
+}
+
+.theme-toggle-btn:hover {
+  box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
+    rgba(50, 50, 93, 0.2) 0 6px 15px 0, rgba(0, 0, 0, 0.1) 0 2px 2px 0,
+    rgba(50, 151, 211, 0.3) 0 0 0 4px;
+}
+
+@media only screen and (max-width: 900px) {
+  .header--container {
+    padding: 16px 10px;
+  }
+  .nav--container {
+    display: none;
+  }
+  .logo--container h1 {
+    font-size: 25px;
+  }
+  .hb--menu {
+    margin-left: auto;
+
+    width: 36px;
+    height: 36px;
+  }
+}
+
+@media only screen and (max-width: 310px) {
+  .logo--container h1 {
+    font-size: 15px;
+  }
+}
