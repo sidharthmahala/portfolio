@@ -13,6 +13,7 @@
   position: sticky;
   top: 0;
   overflow: hidden;
+  z-index: 5;
 }
 
 .logo--container {
@@ -46,23 +47,25 @@
 .nav--container a:after {
   content: "";
   position: absolute;
-  width: 90%;
+  width: 100%;
   transform: scaleX(0);
-  height: 2px;
+  height: 1px;
   bottom: 0;
   left: 0;
-  background-color: #0087ca;
+  background-color: #405CF5;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
 
 .nav--container a:hover:after {
   transform: scaleX(1);
-  transform-origin: bottom left;
-  
-  
+  transform-origin: bottom left; 
 }
+.nav--container a:hover{
+  transition: transform 0.35s ease-out;
+  transform: scale(1.2);
 
+}
 .nav--container button {
   backface-visibility: hidden;
   font-size: 100%;
