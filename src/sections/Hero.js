@@ -6,7 +6,7 @@ function Hero() {
   return (
     <div className='hero--container'>
       <div className='img--contanier'>
-        <img src={require('../Assets/profile.png')} alt='' />
+        <img src={require('../Assets/faceblob.png')} alt='' />
       </div>
       <div className='icons--container'>
         <SocialIcons />
