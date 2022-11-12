@@ -24,7 +24,7 @@ function SocialIcons() {
                 />
             </a>
 
-            <a href='sidharthmahala@gmail.com'>
+            <a href='mailto:sidharthmahala@gmail.com'>
                 <FaEnvelope style={{
                     position: 'fixed',
                     top: '370px',
