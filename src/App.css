@@ -4,24 +4,13 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
     font-family: -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+    /* transition: all 0.5s ease-in-out; */
 }
-
-::-webkit-scrollbar {
-    width: 10px;
+.active{
+    color: #1f1f9f;;
+    transform: font-size scale(1.1);
 }
-
-/* Track */
-::-webkit-scrollbar-track {
-    background:#fff;
-         
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: #31E1F7;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: #D800A6;
+a{
+    text-decoration: none;
+    color: black;
 }

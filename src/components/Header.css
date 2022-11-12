@@ -5,6 +5,7 @@
   width: 100%;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 16px 30px;
   margin-bottom: 10px;
   background-color: transparent;
@@ -25,102 +26,52 @@
   font-size: 20px;
 }
 
-.nav--container {
+.nav--container{
   margin-left: auto;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  font-size: 15px;
+}
+.nav--link{
   font-weight: 600;
-}
-
-.nav--container a {
-  text-decoration: none;
-  color: black;
   padding: 0 5px;
-  margin: 0 20px;
-  display: inline-block;
-  position: relative;
-  font-size: 15px;
+  margin: 0 15px;
+  font-size: 16px;
+}
+.nav--container .nav--link:hover{
+  transform: scale(1.1);
+  color: #0000FF;
 }
 
-.nav--container a:after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 1px;
-  bottom: 0;
-  left: 0;
-  background-color: #405CF5;
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
-}
-
-.nav--container a:hover:after {
-  transform: scaleX(1);
-  transform-origin: bottom left; 
-}
-.nav--container a:hover{
-  transition: transform 0.35s ease-out;
-  transform: scale(1.2);
-
-}
-.nav--container button {
-  backface-visibility: hidden;
-  font-size: 100%;
-  line-height: 1.15;
-
-  background-color: #405cf5;
-  height: 36px;
-  border-radius: 6px;
-  border-width: 0;
-  box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
-    rgba(50, 50, 93, 0.1) 0 2px 5px 0, rgba(0, 0, 0, 0.07) 0 1px 1px 0;
-  box-sizing: border-box;
-  color: #fff;
+.hamburger--menu{
+  display: none;
+  border: none;
+  margin-left: auto;
+  width: 40px;
+  height: 40px;
+  background-color: red;
   cursor: pointer;
-
-  outline: none;
-  padding: 0 20px;
-  margin-left:20px ;
-  text-align: center;
-  text-transform: none;
-  transform: translateZ(0);
-  transition: all 0.2s, box-shadow 0.08s ease-in;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
+  transition: background-color 0.2s ease-in-out;
 }
 
-.theme-toggle-btn:disabled {
-  cursor: default;
+.hamburger--menu:hover {
+  scale: 1.1;
 }
 
-.theme-toggle-btn:hover {
-  box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
-    rgba(50, 50, 93, 0.2) 0 6px 15px 0, rgba(0, 0, 0, 0.1) 0 2px 2px 0,
-    rgba(50, 151, 211, 0.3) 0 0 0 4px;
-}
 
 @media only screen and (max-width: 900px) {
   .header--container {
+    width:100% ;
+    height: auto;
     padding: 16px 10px;
   }
-  .nav--container {
-    display: none;
+  .nav--container{
+    display:none;
   }
-  .logo--container h1 {
-    font-size: 25px;
-  }
-  .hb--menu {
-    margin-left: auto;
-
-    width: 36px;
-    height: 36px;
+  .hamburger--menu {
+    display: block;
   }
 }
-
 @media only screen and (max-width: 310px) {
   .logo--container h1 {
     font-size: 15px;
