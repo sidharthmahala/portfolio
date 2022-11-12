@@ -6,7 +6,7 @@ import './SocialIcons.css'
 function SocialIcons() {
     return (
         <div>
-            <a href='#github'>
+            <a href='https://github.com/sidharthmahala' target='_blank' rel="noopener noreferrer">
                 <FaGithubSquare style={{
                     position: 'fixed',
                     top: '250px',
@@ -14,7 +14,7 @@ function SocialIcons() {
                 }} size='30px'
                 />
             </a>
-            <a href='#linkedIn'>
+            <a href='https://www.linkedin.com/in/sidharthmahala/' target='_blank' rel="noopener noreferrer">
                 <FaLinkedinIn
                     style={{
                         position: 'fixed',
@@ -24,7 +24,7 @@ function SocialIcons() {
                 />
             </a>
 
-            <a href='#email'>
+            <a href='sidharthmahala@gmail.com'>
                 <FaEnvelope style={{
                     position: 'fixed',
                     top: '370px',
@@ -32,7 +32,7 @@ function SocialIcons() {
                     size='30px' 
                 />
             </a>
-            <a href='#twitter'>
+            <a href='https://twitter.com/MahalaSidharth' target='_blank' rel="noopener noreferrer">
                 <FaTwitter style={{
                     position: 'fixed',
                     top: '430px',
