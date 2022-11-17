@@ -46,7 +46,8 @@ img{
     font-size: 24px;
     min-width: 196px;
   }
-  .img{
+  img{
+    
     width: auto;
     height:auto;
   }
