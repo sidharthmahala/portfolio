@@ -6,11 +6,18 @@
     font-family: -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
     /* transition: all 0.5s ease-in-out; */
 }
+body{
+    background-image:url(./Assets/Backgrounds/Bluesky.jpg);
+    background-repeat:no-repeat;
+    background-size: fill;
+    background-attachment: fixed;
+
+}
 .active{
     color: #1f1f9f;;
-    transform: font-size scale(1.1);
+    transform:scale(1.1);
 }
 a{
     text-decoration: none;
-    color: black;
+    color: white;
 }

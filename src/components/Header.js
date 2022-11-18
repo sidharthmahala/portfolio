@@ -9,7 +9,9 @@ function Header() {
     <div className="sticky-header">
       <div className="header--container">
         <div className="logo--container">
-          <h1><NavLink to='/'>SIDHARTH MAHALA</NavLink></h1>
+          <NavLink to='/'><h1>SIDHARTH MAHALA</h1>
+            <img src={require("../Assets/3dimg/flickr.png")} alt="altlogo"></img>
+          </NavLink>
         </div>
         <nav className={isNavExpanded ? "nav--container expanded" : "nav--conatainer"}>
           <div className="nav--link">

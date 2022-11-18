@@ -10,7 +10,7 @@ function Home() {
       <Header />
       <div className='hero--container'>
         <div className='img--contanier'>
-          <img className="profile" src={require('../Assets/profile.png')} alt='' />
+          <img className="profile" src={require('../Assets/3dimg/businessman-working-on-laptop.png')} alt='' />
         </div>
         <div className='icons--container'>
           <SocialIcons />

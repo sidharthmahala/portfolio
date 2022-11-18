@@ -1,40 +1,31 @@
 .hero--container{
     height: 100vh;
-    background: linear-gradient(
+    /* background: linear-gradient(
         to right,
         turquoise 0,
         turquoise 40%,
         white 40%,
         white 100%
-    );
+    ); */
     margin-top: -10px;
     display: flex;
+    align-items: center;
 }
-.img--contanier, .info--card{
+ .img--contanier, .info--card{
     padding: 10px;
     color: whitesmoke;
     margin: 40px;
-    min-width: 300px;
     width: 350px;
     height: 350px;
-   background-color: blue;
+   background-color: transparent;
     border-radius: 5%;
     position: relative;
     overflow: hidden;
    
 }
-.profile{
-   display:none;
-    
-    /*
+.profile{ 
     position: relative;
-    top: 20px; */
-    width: 90%;
-    height: 90%;
-    object-fit: contain;
-    border: none;
-    border-radius: 10%;
-    border-bottom-right-radius: 30%;
-    
-
+    top: 20px;
+    width: 100%;
+    height: 100%;  
 }

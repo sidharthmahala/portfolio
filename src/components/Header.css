@@ -30,7 +30,12 @@
 }
 
 .logo--container h1 {
+  display:none;
   font-size: 20px;
+}
+.logo--container img {
+  width: 50px;
+  height: 50px;
 }
 
 nav {
