@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaGithubSquare, FaTwitter, FaLinkedinIn, FaEnvelope } from "react-icons/fa";
-import './SocialIcons.css'
+
 
 
 function SocialIcons() {

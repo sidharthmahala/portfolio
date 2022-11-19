@@ -1,11 +1,12 @@
 import React from 'react'
 import Header from '../components/Header'
+import SocialIcons3d from '../components/SocialIcons3d'
 
 function Contact() {
   return (
     <>
       <Header />
-      <h1>Contact</h1>
+      <SocialIcons3d/>
     </>
 
   )

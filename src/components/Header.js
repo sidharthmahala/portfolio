@@ -10,7 +10,8 @@ function Header() {
       <div className="header--container">
         <div className="logo--container">
           <NavLink to='/'><h1>SIDHARTH MAHALA</h1>
-            <img src={require("../Assets/3dimg/flickr.png")} alt="altlogo"></img>
+            <img src={require("../Assets/Compressed/delhi-gate-min.png")} alt="altlogo" />
+            {/* <img src={require("../Assets/Compressed/square-illusion-min.png")} alt="altlogo"/> */}
           </NavLink>
         </div>
         <nav className={isNavExpanded ? "nav--container expanded" : "nav--conatainer"}>
@@ -30,9 +31,9 @@ function Header() {
             {/* <a href='../Assets/ResumeSidharthm.pdf' target='_blank'>Resume</a> */}
             <NavLink to='../Assets/ResumeSidharthm.pdf' target='_blank'>Resume</NavLink>
           </div>
-          <div className="nav--link">
+          {/* <div className="nav--link">
             <NavLink to='/Blog'>Blog</NavLink>
-          </div>
+          </div> */}
           <div className="nav--link"><NavLink to='/Contact'>
             Contact
           </NavLink>

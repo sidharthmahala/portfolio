@@ -3,21 +3,14 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    font-family: -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
-    /* transition: all 0.5s ease-in-out; */
+    font-family: 'Poppins', sans-serif; 
+    transition: all 0.5s ease-in-out;
 }
-body{
-    background-image:url(./Assets/Backgrounds/Bluesky.jpg);
-    background-repeat:no-repeat;
-    background-size: fill;
-    background-attachment: fixed;
 
-}
 .active{
     color: #1f1f9f;;
     transform:scale(1.1);
 }
 a{
     text-decoration: none;
-    color: white;
 }

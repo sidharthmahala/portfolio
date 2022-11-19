@@ -5,9 +5,9 @@ import About from './Pages/About'
 import Skills from './Pages/Skills'
 import Projects from './Pages/Projects'
 import Resume from './Pages/Resume'
-import Blog from './Pages/Blog'
+//import Blog from './Pages/Blog'
 import Contact from './Pages/Contact'
-import Text from './components/Text'
+//import Text from './components/Text'
 import './App.css';
 
 function App() {
@@ -19,10 +19,9 @@ function App() {
        <Route path="/Skills" element={<Skills />}/>
        <Route path="/Projects" element={<Projects/>}/>
        <Route path="/Resume" element={<Resume/>}/>
-       <Route path="/Blog" element={<Blog/>}/>
+       {/* <Route path="/Blog" element={<Blog/>}/> */}
        <Route path="/Contact" element={<Contact/>}/>
      </Routes>
-     <Text />
      </BrowserRouter>
   );
 }
