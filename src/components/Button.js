@@ -4,7 +4,7 @@ import './Button.css'
 function Button() {
   return (
     <div>
-        <button className="theme-toggle-btn">Light/Dark</button>
+        <button className="btn">Light/Dark</button>
     </div>
   )
 }

@@ -1,34 +1,31 @@
-button {
-    font-size: 100%;
-    line-height: 1.15;
-    background-color: #405cf5;
-    height: 36px;
-    border-radius: 6px;
-    border-width: 0;
-    box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
-      rgba(50, 50, 93, 0.1) 0 2px 5px 0, rgba(0, 0, 0, 0.07) 0 1px 1px 0;
-    box-sizing: border-box;
-    color: #fff;
-    cursor: pointer;
-  
-    outline: none;
-    padding: 0 20px;
-    margin-left:20px ;
-    text-align: center;
-    text-transform: none;
-    transform: translateZ(0);
-    transition: all 0.2s, box-shadow 0.08s ease-in;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-  }
-  
-  .theme-toggle-btn:disabled {
-    cursor: default;
-  }
-  
-  .theme-toggle-btn:hover {
-    box-shadow: rgba(50, 50, 93, 0.1) 0 0 0 1px inset,
-      rgba(50, 50, 93, 0.2) 0 6px 15px 0, rgba(0, 0, 0, 0.1) 0 2px 2px 0,
-      rgba(50, 151, 211, 0.3) 0 0 0 4px;
-  }
+.btn{
+  appearance: button;
+  background-color: #3fbafe;
+  border: 0 solid #e5e7eb;
+  border-radius: .65rem;
+  box-sizing: border-box;
+  color: black;
+  cursor: pointer;
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 1.2rem;
+  padding: 1rem 1.5rem;
+  text-align: center;
+  text-transform: none;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+}
+
+.btn:active {
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+  transform: translateY(0.125rem);
+}
+
+.btn:focus {
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+}
