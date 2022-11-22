@@ -12,9 +12,12 @@ body{
 }
 
 .active{
-    color: #1f1f9f;;
-    transform:scale(1.1);
+    color: black;
+    background-color: #3FBAFE;
+    padding: 1px;
+    border-radius: 2px;
 }
+
 a{
     text-decoration: none;
 }

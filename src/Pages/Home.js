@@ -1,16 +1,17 @@
 import React from 'react'
 import Header from '../components/Header'
+//import SocialIcons3d from '../components/SocialIcons3d'
 import '../components/Button.css'
-import SocialIcons3d from '../components/SocialIcons3d'
+import SkillsSection from './Home/SkillsSection'
 import './Home.css'
 
 function Home() {
   return (
     <div>
       <Header />
-      <div className='icons-container'>
+      {/* <div className='icons-container'>
         <SocialIcons3d />
-      </div>
+      </div> */}
       <div className='home-container'>
         <div className='info-card'>
           <h1>Hey, I'm Sidharth 👋</h1>
@@ -24,6 +25,7 @@ function Home() {
         />
         {/* <img className="profile" src={require('../Assets/Compressed/man-sitting-with-a-laptop-and-waving-his-hand.png')} alt='' /> */}
       </div>
+      <SkillsSection />
     </div>
   )
 }

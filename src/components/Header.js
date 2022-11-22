@@ -29,7 +29,7 @@ function Header() {
           </div>
           <div className="nav--link">
             {/* <a href='../Assets/ResumeSidharthm.pdf' target='_blank'>Resume</a> */}
-            <NavLink to='../Assets/ResumeSidharthm.pdf' target='_blank'>Resume</NavLink>
+            <NavLink to='../Assets/ResumeSidharthm.pdf' target='_blank'>Resume🡕</NavLink>
           </div>
           {/* <div className="nav--link">
             <NavLink to='/Blog'>Blog</NavLink>
