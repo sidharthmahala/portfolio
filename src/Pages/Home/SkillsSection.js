@@ -10,7 +10,7 @@ function SkillsSection() {
         <div className='container'>
         <div className='info-card'>
           <h1>Skills</h1> 
-          <p>These are the skills I am Well wersed with. </p>
+          <p>These are the skills I am Well versed in. </p>
           <div className="btn-container">
             
           </div>
