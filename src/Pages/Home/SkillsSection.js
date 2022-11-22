@@ -1,14 +1,14 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom';
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNode, FaPython, FaGit, FaGithub } from "react-icons/fa";
 import { SiTypescript, SiCanva, SiRedux, SiMongodb } from 'react-icons/si';
 import './SkillsSection.css'
-
 
 function SkillsSection() {
   return (
     <div>
       <div className='section-wrap'>
-        <div className='tscontainer'>
+        <div className='ts-container'>
           <div className='info-text'>
             <h1>Skills</h1>
             <p>These are the skills I am Well versed in. </p>
@@ -64,7 +64,10 @@ function SkillsSection() {
             </div>
           </div>
         </div>
-        <button className="btn">Skills</button>
+        <div  className="tb-container">
+          <p>Read more about my skills</p>
+          <button className="btn"><NavLink to='/Skills'>Skills</NavLink></button>
+        </div>
       </div>
     </div>
   )

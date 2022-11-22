@@ -15,7 +15,7 @@
   overflow: hidden;
 }
 
-.tscontainer {
+.ts-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -78,12 +78,12 @@
   font-size: 24px;
   overflow: hidden;
 }
-/* .btn-container{
+.tb-container{
     display:flex;
     align-items: center;
     justify-content: space-between;
     margin: 20px 10px ;
-  } */
+  } 
 
 @media only screen and (max-width: 900px) {
   .section-wrap {
@@ -96,7 +96,7 @@
     max-width: 100%;
     height: auto;
   }
-  .tscontainer {
+  .ts-container {
     flex-direction: column;
   }
   .info-text {
