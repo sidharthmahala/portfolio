@@ -1,8 +1,9 @@
 .home-container {
+  text-align: center;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 50px 100px 80px;
+  margin: 50px 100px auto;
   padding: 20px 40px;
   max-width: 100%;
   min-height: 400px;
@@ -87,4 +88,15 @@
     overflow: hidden;
   }
 
+}
+@media only screen and (min-width: 1920px) {
+  .home-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px auto;
+    padding: 20px;
+    width: 70%;
+    min-height: 400px;
+  }
 }
