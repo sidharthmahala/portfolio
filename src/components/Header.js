@@ -29,14 +29,14 @@ function Header() {
           </div>
           <div className="nav--link">
             {/* <a href='../Assets/ResumeSidharthm.pdf' target='_blank'>Resume</a> */}
-            <NavLink to='../Assets/ResumeSidharthm.pdf' target='_blank'>Resume🡕</NavLink>
+            {/* <NavLink to='../Assets/ResumeSidharthm.pdf' target='_blank'>Resume🡕</NavLink> */}
+            <NavLink to='/Resume'>Resume</NavLink>
           </div>
           {/* <div className="nav--link">
             <NavLink to='/Blog'>Blog</NavLink>
           </div> */}
-          <div className="nav--link"><NavLink to='/Contact'>
-            Contact
-          </NavLink>
+          <div className="nav--link">
+            <NavLink to='/Contact'>Contact</NavLink>
           </div>
           {/* <button className="theme-toggle-btn">Light/Dark</button> */}
         </nav>

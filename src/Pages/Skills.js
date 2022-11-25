@@ -1,11 +1,12 @@
 import React from 'react'
 import Header from '../components/Header'
+import SkillsSection from './Home/SkillsSection'
 
 function Skills() {
   return (
     <>
       <Header/>
-      <h1>Skills Page</h1>
+      <SkillsSection />
     </>
   )
 }
