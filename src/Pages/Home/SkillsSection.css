@@ -124,14 +124,14 @@
 
 }
 
-@media only screen and (min-width: 1920px) {
+@media only screen and (min-width: 1700px) {
   .section-wrap {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin:40px auto;
     padding: 15px;
-    width: 70%;
+    width: 60%;
     max-width: 1800px;
     height: auto;
   }

@@ -36,7 +36,7 @@
 }
 
 
-@media only screen and (min-width: 1920px) {
+@media only screen and (min-width: 1700px) {
     .project-section-container {
       display: flex;
       align-items: center;
@@ -44,7 +44,7 @@
       margin: 20px auto;
       padding: 20px;
       max-width:1800px;
-      width: 70%;
+      width: 60%;
       min-height: 400px;
     }
   }

@@ -61,7 +61,7 @@ nav {
   font-size: 16px;
 }
 .nav--link:hover {
-  transform: scale(1.1);
+  /* transform: scale(1.1); */
   color: #0000ff;
 }
 
@@ -125,4 +125,21 @@ a{
   .logo--container h1 {
     font-size: 15px;
   }
+}
+
+@media only screen and (min-width: 1700px) {
+  .header--container  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:20px auto;
+    padding: 20px;
+    width: 70%;
+    height: auto;
+  }
+  /* .logo--container img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+  } */
 }
