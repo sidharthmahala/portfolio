@@ -6,6 +6,7 @@ import '../components/Button.css'
 import SkillsSection from './Home/SkillsSection'
 import ProjectSection from './Home/ProjectSection'
 import './Home.css'
+//import Footer from '../components/Footer'
 
 function Home() {
   return (
@@ -26,12 +27,13 @@ function Home() {
             {/* <button ><</button> */}
           </div>
         </div>
-        <img className="profile" src={require('../Assets/Compressed/man-holding-a-dog.png')} alt=''
+        <img className="profile" src={require('../Assets/Compressed/guy-working.png')} alt=''
         />
         {/* <img className="profile" src={require('../Assets/Compressed/man-sitting-with-a-laptop-and-waving-his-hand.png')} alt='' /> */}
       </div>
       <SkillsSection />
       <ProjectSection />
+      {/* <Footer /> */}
     </div>
   )
 }

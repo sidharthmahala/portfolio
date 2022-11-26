@@ -1,0 +1,17 @@
+.footer-container{
+    min-height: 100px;
+    width: 100%;
+    min-width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  background-color: #FF9494;
+  backdrop-filter: blur(5px);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-top: 1px solid #274546;
+}
+
+.footer-container p{
+    padding:10px
+}
